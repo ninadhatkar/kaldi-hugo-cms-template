@@ -1,0 +1,254 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core > debug:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core >
+          debug
+    - postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core >
+          babel-helpers > babel-template > babel-traverse > debug
+    - browser-sync > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:debug:20170905'
+        path: browser-sync > chokidar > fsevents > node-pre-gyp > tar-pack > debug
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack >
+          debug
+  'npm:extend:20180424':
+    - postcss-import > pkg-resolve > jspm > request > extend:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:extend:20180424'
+        path: postcss-import > pkg-resolve > jspm > request > extend
+    - postcss-import > pkg-resolve > jspm > liftoff > extend:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:extend:20180424'
+        path: postcss-import > pkg-resolve > jspm > liftoff > extend
+    - postcss-import > pkg-resolve > jspm > proper-lockfile > extend:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:extend:20180424'
+        path: postcss-import > pkg-resolve > jspm > proper-lockfile > extend
+    - browser-sync > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:extend:20180424'
+        path: browser-sync > chokidar > fsevents > node-pre-gyp > request > extend
+    - postcss-import > pkg-resolve > jspm > jspm-github > request > extend:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:extend:20180424'
+        path: postcss-import > pkg-resolve > jspm > jspm-github > request > extend
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          extend
+  'npm:hoek:20180212':
+    - browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk >
+          hoek
+    - postcss-import > pkg-resolve > jspm > jspm-github > request > hawk > hoek:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          postcss-import > pkg-resolve > jspm > jspm-github > request > hawk >
+          hoek
+    - browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk >
+          boom > hoek
+    - postcss-import > pkg-resolve > jspm > jspm-github > request > hawk > boom > hoek:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          postcss-import > pkg-resolve > jspm > jspm-github > request > hawk >
+          boom > hoek
+    - browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          browser-sync > chokidar > fsevents > node-pre-gyp > request > hawk >
+          sntp > hoek
+    - postcss-import > pkg-resolve > jspm > jspm-github > request > hawk > sntp > hoek:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          postcss-import > pkg-resolve > jspm > jspm-github > request > hawk >
+          sntp > hoek
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          hawk > hoek
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          hawk > boom > hoek
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          hawk > sntp > hoek
+  SNYK-JS-LODASH-567746:
+    - postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core > lodash:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core >
+          lodash
+    - postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core > babel-register > lodash:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core >
+          babel-register > lodash
+    - postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core > babel-generator > lodash:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core >
+          babel-generator > lodash
+    - postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core >
+          babel-helpers > babel-template > lodash
+    - postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core > babel-generator > babel-types > lodash:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core >
+          babel-generator > babel-types > lodash
+    - postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core >
+          babel-helpers > babel-template > babel-traverse > lodash
+  'npm:ms:20170412':
+    - postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core >
+          babel-helpers > babel-template > babel-traverse > debug > ms
+    - browser-sync > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          browser-sync > chokidar > fsevents > node-pre-gyp > tar-pack > debug >
+          ms
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack >
+          debug > ms
+  'npm:qs:20170213':
+    - postcss-import > pkg-resolve > jspm > request > qs:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:qs:20170213'
+        path: postcss-import > pkg-resolve > jspm > request > qs
+    - browser-sync > chokidar > fsevents > node-pre-gyp > request > qs:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:qs:20170213'
+        path: browser-sync > chokidar > fsevents > node-pre-gyp > request > qs
+    - postcss-import > pkg-resolve > jspm > jspm-github > request > qs:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:qs:20170213'
+        path: postcss-import > pkg-resolve > jspm > jspm-github > request > qs
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > qs:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:qs:20170213'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          qs
+  'npm:stringstream:20180511':
+    - postcss-import > pkg-resolve > jspm > request > stringstream:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:stringstream:20180511'
+        path: postcss-import > pkg-resolve > jspm > request > stringstream
+    - browser-sync > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          browser-sync > chokidar > fsevents > node-pre-gyp > request >
+          stringstream
+    - postcss-import > pkg-resolve > jspm > jspm-github > request > stringstream:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          postcss-import > pkg-resolve > jspm > jspm-github > request >
+          stringstream
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          stringstream
+  'npm:tough-cookie:20170905':
+    - postcss-import > pkg-resolve > jspm > request > tough-cookie:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:tough-cookie:20170905'
+        path: postcss-import > pkg-resolve > jspm > request > tough-cookie
+    - browser-sync > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          browser-sync > chokidar > fsevents > node-pre-gyp > request >
+          tough-cookie
+    - postcss-import > pkg-resolve > jspm > jspm-github > request > tough-cookie:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          postcss-import > pkg-resolve > jspm > jspm-github > request >
+          tough-cookie
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          tough-cookie
+  'npm:tunnel-agent:20170305':
+    - postcss-import > pkg-resolve > jspm > request > tunnel-agent:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: postcss-import > pkg-resolve > jspm > request > tunnel-agent
+    - browser-sync > chokidar > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          browser-sync > chokidar > fsevents > node-pre-gyp > request >
+          tunnel-agent
+    - postcss-import > pkg-resolve > jspm > jspm-github > request > tunnel-agent:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          postcss-import > pkg-resolve > jspm > jspm-github > request >
+          tunnel-agent
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2023-08-30T19:35:24.536Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          webpack > watchpack > chokidar > fsevents > node-pre-gyp > request >
+          tunnel-agent
